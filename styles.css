@@ -1,0 +1,24 @@
+body {
+    background: #ffffff;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+div.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.animate__animated.animate__lightSpeedInLeft {
+    --animate-duration: 1.5s;
+  }

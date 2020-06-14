@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.23.0/phaser.min.js"></script>
+        <script src="game.js"></script>
+        <title>Wheel of (Mis)Fortunes</title>
+    </head>
+	<body>
+        <div id="thegame"></div>
+        <div><img class="animate__animated animate__lightSpeedInLeft" id="splashscreen" src="hotwheels.jpg" onclick="loadGame()"></div>
+        <div class="container" id="loader">
+            <table>
+                <tr>
+                    <tr>Upload a text file containing the list of items, or click the image to load the defaults.</tr>
+                    <td><input id="upload" type="file" name="upload" accept=".txt" onchange="loadFileAsText()"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
